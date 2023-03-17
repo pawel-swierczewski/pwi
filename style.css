@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #f2f2f2;
+}
+
+li, a {
+		background-color: #222222;
+}
+
+li, a, button {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: #edf0f1;
+	text-decoration: none;
+}
+
+header {
+	/*#position: fixed;
+	#top: 0px;
+	width: 100%;*/
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 17px 10%;
+	background-color: #222222;
+}
+
+h1 {
+	font-size: 40px;
+	line-height: 48px;
+	padding-top: 45px;
+	padding-bottom: 80px;
+}
+
+h2 {
+	padding-bottom: 24px;
+	background-color: #FFFFFF;
+}
+
+.panel__wrapper {
+	border-radius: 15px;
+	box-shadow: 0 0 60px 1px lightgray;
+}
+
+.panel__wrapper, p {
+	background-color: #FFFFFF;
+}
+
+.profile__photo {
+	background-color: #FFFFFF;
+}
+
+.left__banner__column {
+	background-color: #FFFFFF;
+	text-align: center;
+	width: 40%;
+	float: left;
+}
+
+.right__banner__column {
+	background-color: #FFFFFF;
+	text-align: center;
+	width: 60%;
+	float: right;
+}
+
+.bottom__banner__column {
+	background-color: #FFFFFF;
+}
+
+.bottom__banner__column p {
+	padding-bottom: 30px;
+}
+
+.cta__panel {
+	background-color: #FFFFFF;
+}
+
+.container div {
+	font-family: 'Poppins', sans-serif;
+	padding: 2%;
+	box-sizing: border-box;
+}
+
+.left__column {
+	text-align: center;
+	width: 25%;
+	float: left;
+}
+
+.right__column {
+	text-align: center;
+	width: 25%;
+	float: right;
+}
+
+.center__column {
+	text-align: center;
+	width: 50%;
+	display: inline-block
+} 
+
+.banner__ad {
+	padding: 8% 5%;
+	cursor: pointer;
+	
+}
+
+.logo {
+	cursor: pointer;
+	margin-right: auto;
+	background-color: #222222;
+}
+
+.nav__links {
+	list-style: none;
+	background-color: #222222;
+}
+
+.nav__links li {
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+.nav__links li a {
+	transition: all 0.2s ease 0s;
+}
+
+.nav__links li a:hover {
+	color: #40c187;
+}
+
+header button {
+	margin-left: 20px;
+	padding: 9px 25px;
+	background-color: rgba(64,193,135,1);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;	
+}
+
+button:hover {
+	background-color: rgba(64,193,135,0.8);
+}
+
+.cta__panel button {
+
+	padding: 18px 40px;
+	color: white;
+	background-color: rgba(64,193,135,1);
+	border: none;
+	font-size: 20px;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;	
+}
+
+.cta__panel button:hover {
+	background-color: rgba(64,193,135,0.8);
+}
+
+main {
+	font-family: 'Poppins', sans-serif;
+}
+
+footer {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 200;
+	font-size: 12px;
+	position: absolute;
+  	bottom: 0;
+  	width: 100%;
+	text-align: center;
+	color: #edf0f1;
+}
+
+#footer__content {
+	background-color: #222222;
+	padding: 10px;
+}
+
